@@ -75,4 +75,5 @@ group :test do
   gem "webdrivers"
   gem "rspec-rails"
   gem "rspec-sidekiq"
+  gem "factory_bot_rails"
 end
