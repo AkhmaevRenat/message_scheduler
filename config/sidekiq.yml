@@ -1,0 +1,7 @@
+:concurrency: 1
+
+:schedule:
+  message_scheduling_worker:
+    args: [1, 10, 3]
+    every: ['1h', first_in: '0s']
+    class: Messages::MessageSchedulingWorker
